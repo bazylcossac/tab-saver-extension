@@ -1,0 +1,45 @@
+ body {
+     background-color: #1A120B;
+     min-width: 500px;
+     min-height: 200px;
+     margin-top: 20px;
+ }
+ 
+ #desc {
+     border: none;
+     width: 50%;
+     height: 30px;
+     background-color: #666666;
+     color: white;
+ }
+ 
+ button {
+     background-color: #3C2A21;
+     color: white;
+     border: none;
+     height: 30px;
+     margin-left: 5px;
+     margin-top: 10px;
+     font-family: 'Oswald', sans-serif;
+     letter-spacing: 2px;
+ }
+ 
+ button2:active {
+     transition: scale(1.5);
+ }
+ 
+ ul li {
+     list-style-type: none;
+     margin-top: 10px;
+     font-family: 'Oswald', sans-serif;
+ }
+ 
+ a {
+     color: white;
+ }
+ 
+ #image {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
